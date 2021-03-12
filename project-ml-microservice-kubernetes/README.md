@@ -43,11 +43,20 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 ### Files in this Directory
 **Dockerfile**	      // The dockerfile that will support running the application in Docker
+
 **Makefile**          // Supports the 'make lint' command to check for proper syntax
+
 **README.md**         // This file.
+
 **app.py**            // The main application that is serving predictions over port 80
+
 **make_prediction.sh**// A script that makes it easy to request a prediction from app.py
+
 **requirements.txt**  // Pip requirements to run ./app.py
+
 **run_docker.sh**     // An easy script to run the application in docker
+
 **run_kubernetes.sh** // An easy script to run the application via Kubernetes
+
 **upload_docker.sh**  // An easy to use script that allows uploading the docker image to Docker
+
