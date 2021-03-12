@@ -22,8 +22,8 @@ RUN make install
 RUN wget https://github.com/hadolint/hadolint/releases/download/v1.23.0/hadolint-Linux-x86_64
 RUN cp ./hadolint-Linux-x86_64 /usr/bin/hadolint
 RUN chmod +x /usr/bin/hadolint
-RUN apt-get update
-RUN apt-get -y install python3-flask=1.1.1 python3-pandas=0.25.3 python3-sklearn=0.22.2
+RUN apt update
+RUN apt -y install python3-flask python3-pandas python3-sklearn
 RUN pip install --no-cache-dir pylint==2.4.4
 
 # Run lint test!
