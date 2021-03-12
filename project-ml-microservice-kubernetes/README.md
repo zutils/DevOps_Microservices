@@ -48,6 +48,10 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 **README.md**         // This file.
 
+**kubernetes.out.txt** // The output from the run_kubernetes.sh command when serving a prediction
+
+**docker_out.txt**    // The output from the server when hosting as a Docker image and serving a prediction
+
 **app.py**            // The main application that is serving predictions over port 80
 
 **make_prediction.sh**// A script that makes it easy to request a prediction from app.py
