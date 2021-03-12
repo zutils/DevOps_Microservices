@@ -33,7 +33,7 @@ jobs:
             chmod +x /bin/hadolint
       - save_cache:
           paths:
-          - ./venv
+          - ~/venv
           key: v1-dependencies-{{ checksum "project-ml-microservice-kubernetes/requirements.txt" }}
 
       # run lint!
