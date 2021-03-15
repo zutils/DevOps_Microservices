@@ -3,6 +3,8 @@
 
 # Assumes that an image is built via `run_docker.sh`
 
+docker login
+
 # Step 1:
 # Create dockerpath
 dockerpath=jzypo/udacity:project4 #<your docker ID/path>
